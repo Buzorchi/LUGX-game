@@ -1,0 +1,80 @@
+/* page-section */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Sans serif";
+}
+/* page-section */
+.page-section{
+    background-image: url(/images/page-heading-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px 100px 0px;
+    text-align: center;
+}
+.page-section-shop{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+/* trending-section */
+.trending-section{
+margin-top: 120px;
+}
+.trending-section .container a{
+    text-decoration:none;
+    color: black ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+}
+li{
+    display: inline;
+    margin: 5px 8px;
+}
+.trending-section .container .trend-a{
+    background-color: #eee;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.trending-section .container .trend-a:hover{
+    color: #ee626b;
+}
+.trend-show-all{
+    background-color: #ee626b;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.trending-row{
+    margin-top: 80px;
+}
+/* pagination */
+.pagination{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    /* display: inline-block; */
+}
+.pagination-ul ul.pagination li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #eee;
+    color: #1e1e1e;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.pagination-ul ul.pagination li a:hover{
+    background-color: #0071f8;
+    color: white;
+}
