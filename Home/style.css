@@ -22,6 +22,7 @@ body{
     height: 80px;
     position: fixed;
     top: 0;
+    transition: all .5s ease 0s;
  }
  .item-header{
   padding-top: 15px;
