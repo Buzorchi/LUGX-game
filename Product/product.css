@@ -101,3 +101,10 @@ hr{
     line-height: 28px;
     color: #4a4a4a;
 }
+
+/* related-items */
+.related-img{
+    width: 100%;
+    overflow: hidden;
+}
+

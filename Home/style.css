@@ -14,7 +14,13 @@ body{
     right: 0;
     z-index: 100;
     overflow: hidden;
+    transition: all .5s ease 0s;
     /* position: fixed; */
+  }
+  .menu{
+    color: #ee626b;
+    font-size: 16px;
+    font-weight: 700;
   }
  .background-header{
     background-color: #0071f8;
@@ -27,11 +33,15 @@ body{
  .item-header{
   padding-top: 15px;
  }
+ 
+
+
+ 
  /* nav */
-  .nav-item{
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+  /* .nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+  } */
   .a-active{
     background-color: rgba(255, 255, 255, 0.10);
   }
@@ -40,12 +50,12 @@ body{
     border-radius: 20px;
     font-size: 15px;
     padding: 0 20px;
-   font-weight: 300;
-  }
-  .items{
-    font-size: 15px;
-    padding: 0 20px;
     font-weight: 300;
+  }
+  .nav-link{
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    font-weight: 300 !important;
   }
  .items:hover{
     background-color: rgba(255, 255, 255, 0.10);
@@ -53,10 +63,10 @@ body{
   }
   .sign-in{
     background-color: #ee626b;
-    border-radius: 25px;
+    border-radius: 20px;
     font-size: 15px;
-    padding: 0 20px;
-    font-weight: 500;
+    padding: 10px 20px;
+    font-weight: 500 !important;
   }
  /* banner */
   .main-banner{
@@ -341,6 +351,7 @@ body{
     text-align: center;
     /* margin-bottom: 30px */
 }
+/* categories */
 .category-p{
     font-size: 17px;
     font-weight: 600;
@@ -464,8 +475,27 @@ footer{
 
 
 /* responsiveness */
-@media (max-width: 575.98px) {
-  .item-header{
-    background-color: #ebe3e3d3;
-  }
+@media (max-width: 992px){
+.logo-img {
+    max-width: 110px;
+}
+}
+
+ @media (max-width: 992px){
+  .nav-ul {
+    margin-top: 0;
+}
  }
+
+ @media (max-width: 992px){
+  .nav-item {
+    margin-top: 0;
+}
+ }
+ @media (min-width: 992px){
+  .container {
+    max-width: 960px;
+}
+ }
+
+ 
